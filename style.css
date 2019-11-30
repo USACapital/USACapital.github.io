@@ -240,7 +240,9 @@ hr.light-100
       padding: .7rem;
   }
 }
-
+form {
+  text-align: center;
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {

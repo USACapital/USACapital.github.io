@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					  <li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="#">About Us</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="subscription.html">Subscription</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="products.html">Products</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+				</ul>
+		</div>
+</div>
+</nav>
+
+
+<!--- Contact Form -->
+<div class="section">
+	<div class="container center_div">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2 class="section title">CONTACT US</h2>
+				<hr>
+			</div>
+			<div class="col-md-8 col-md-offset-2">
+				<form id="contact" method="post" class="form" role="form">
+					<div class="row">
+						<div class="col-md-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Name" type="name" required/>
+						</div>
+						<div class="col-md-6 form-group">
+							<input class="form-control" id="email" name="email" placeholder="Email" type="email" required/>
+						</div>
+					</div>
+					<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+					<br>
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<button class="btn btn-primary" type="submit">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!--- Connect -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+		<div class="col-12">
+				<hr>
+				<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+				<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+		</div>
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+		<div class="col-md-6">
+				<hr class="light">
+				<h5> USA Capital</h5>
+				<hr class="light">
+				<p>444-444-4444</p>
+				<p>usacapita@gmail.com</p>
+		</div>
+		<div class="col-md-6">
+				<hr class="light">
+				<h5> Hours of Operation</h5>
+				<hr class="light">
+				<p> Monday - Friday: 9AM - 5PM </p>
+				<p> Saturday - Sunday: Closed </p>
+		</div>
+		<div class="col-12">
+				<hr class="light">
+				<h5>&copy; cashturf.com</h5>
+		</div>
+</div>
+</div>
+</footer>
+
+
+</body>
+</html>

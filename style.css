@@ -78,7 +78,7 @@ html, body
     width: 20%;
 }
 
-.row::after
+.row:after
 {
     content: "";
     clear: both;
@@ -265,6 +265,12 @@ form {
   text-align: center;
 }
 
+.card-img-top
+{
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
